@@ -23,4 +23,4 @@ Route::get('/about', [AboutController::class, 'index'])->name('about');
 
 Route::get('/products', [ProductsController::class, 'index'])->name('prod');
 
-Route::get('/', [StoreController::class, 'index'])->name('store');
+Route::get('/store', [StoreController::class, 'index'])->name('store');
